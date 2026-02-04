@@ -32,8 +32,9 @@
 		padding-bottom: 9px;
 		padding-left: 16px;
 		padding-right: 16px;
-		transition: background-color 1s,
-		color 1s;
+		transition: background-color 1s;
+		color: 1s;
+		vertical-align: top;
 	}
 
 	.join-button:hover{
@@ -56,6 +57,7 @@
 		font-size:15px;
 		cursor: pointer;
 		margin-left: 8px;
+		margin-right: 10px;
 		transition: box-shadow 0.15s,;
 		color: 0.15s;
 		vertical-align: top;
@@ -65,3 +67,143 @@
 	.tweet-button:hover{
 		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 	}
+
+	.request-button{
+		height: 40px;
+		background-color: black;
+		color: white;
+		width: fit-content;
+		border: none;
+		cursor: pointer;
+		margin-right: 10px;
+		cursor: pointer;
+		vertical-align: top;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.request-button:hover{
+		opacity: 0.7;
+	}
+
+	.amazon-button{
+		background-color: rgb(244, 213, 63);
+		color: black;
+		width: 180px;
+		height: 40px;
+		border: none;
+		border-radius: 30px;
+		font-weight: bold;
+		cursor: pointer;
+		margin-right: 10px;
+		transition: background-color 1s;
+	}
+
+	.amazon-button:hover{
+		background-color: rgb(216, 186, 36);;
+	}
+
+	.github-button{
+		background-color: rgb(46, 164, 79);
+		color: white;
+		height: 40px;
+		width: 80px;
+		border: none;
+		border-radius: 6px;
+		font-weight: bold;
+		cursor: pointer;
+		vertical-align: top;
+	}
+
+	.github-button:hover{
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+	}
+
+	.bootstrap{
+		margin-top: 10px;
+	}
+
+	.btn-1{
+		background-color: rgb(121, 82, 179);
+		color: white;
+		font-weight: bold;
+		padding: 10px;
+		width: 120px;
+		height: 40px;
+		border: none;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+
+	.btn-1:hover{
+		background-color: rgb(99, 59, 159);;
+	}
+
+	.btn-2{
+		background-color:white;
+		color:  rgb(108, 117, 125);
+		width: 120px;
+		height: 40px;
+		border-width: 1px;
+		border-radius: 3px;
+		font-weight: bold;
+		cursor: pointer;
+		transition: background-color 1s;
+		color: 1s;
+	}
+
+	.btn-2:hover{
+		background-color: rgb(108, 117, 125);
+		color: white;
+	}
+
+	.linked-in{
+		margin-top: 10px;
+		height: 40px;
+		width: 240px;
+		padding-left: 10px;
+		padding-right: 10px;
+		background-color: rgb(10,102,194);
+		font-weight: bold;
+		color: white;
+		border: none;
+		font-size: medium;
+		border-radius: 20px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+
+	.linked-in:hover{
+		background-color: rgb(10, 81, 152);
+	}
+
+	.linked-in-save{
+		height: 40px;
+		width: 80px;
+		font-size: medium;
+		border-color: rgb(10,102,194);;
+		border-radius: 20px;
+		border-width: 2px;
+		color: rgb(10,102,194);;
+		background-color: white;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	.linked-in-save:hover{
+		border-width: 3px;
+		background-color: rgb(243, 237, 237);
+	}
+
+
+.buy-now{
+	background-color: rgb(222, 188, 15);
+	color: black;
+	width: 180px;
+	height: 40px;
+	border: none;
+	border-radius: 30px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 10px;
+}
