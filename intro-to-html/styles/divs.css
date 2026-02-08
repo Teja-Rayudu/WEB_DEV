@@ -1,0 +1,114 @@
+input{
+    display: block;
+    margin-bottom: 5px;
+}
+
+p{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+
+}
+
+
+.google{
+    display: block;
+    width: 200px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.search-input{
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+
+.fname{
+    display: inline-block;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 30px;
+    padding-left: 10px;
+    border-color: rgb(210, 205, 205);
+}
+.lname{
+    display: inline-block;
+    width: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 30px;
+    padding-left: 10px;
+    border-color: rgb(210, 205, 205);
+}
+
+.email{
+    width: 218px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 30px;
+    padding-left: 10px;
+    border-color: rgb(210, 205, 205);
+}
+
+.sign-up{
+    color: white;
+    background-color: rgb(102, 102, 240);
+    font-weight: bold;
+    width: 232px;
+    border: none;
+    height: 35px;
+    border-radius: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom : 10px;
+}
+
+.ride-info{
+    background-color: rgb(246, 243, 243);
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+.ride-info ::placeholder{
+    color: black;
+    padding-left: 30px;
+}
+
+.req{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin-right: 50px;
+}
+
+.later{
+    border: none;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
